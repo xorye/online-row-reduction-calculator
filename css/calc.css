@@ -1,0 +1,30 @@
+#drop-down, #submit{
+	display: block;
+	margin: 0 auto;
+}
+
+input{
+	width: 3%;
+}
+
+#submit{
+	margin-top: 20px;
+}
+
+.text-field{
+	margin-top: 20px;
+}
+
+#calculate-button{
+	margin-top: 20px;
+}
+
+/* https://stackoverflow.com/questions/10309408/how-to-add-vertical-spacing-between-block-elements-but-not-top-and-bottom */
+/* spaces out each input field */
+input + input{
+	margin-left: 4px;
+}
+
+#answer-div{
+	margin-top: 10px;
+}

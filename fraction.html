@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Testing Matrices and Fractions</title>
+</head>
+
+<body>
+
+<script type="text/javascript" src="js/fraction.js"></script>
+<script type="text/javascript" src="js/matrix.js"></script>
+
+<script type="text/javascript">
+
+
+// // 1 x 3 
+// var n = new Matrix([["-4", "-4/2", "4"]]);
+
+
+// // 3 x 1
+// var m = new Matrix([["11"],["230/2"],["13456/8"]], true);
+
+// // 3 x 3
+// var mn = new Matrix([
+
+// 	["1","2","3"],
+// 	["1/3","2/3","3/3"],
+// 	["1/4","2/4","3/4"]
+// 	], true);
+
+// row reduction test
+var foo = new Matrix([
+	["1", "3", "5"],
+	["3/2", "-2/3", "6"],
+	["-1/6", "2", "0"]
+	]);
+
+
+// console.log(foo);
+
+var foo1 = new Matrix([
+	["0", "5"],
+	["2", "3"],
+	["1", "2"]
+	]);
+
+foo1.gaussianAlgForward();
+
+
+</script>
+</body>
+</html>

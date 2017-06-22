@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Online Row Reduction Calculator</title>
+
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  
+  <link rel="stylesheet" href="css/row_reduce.css">
+
+</head>
+
+<body>
+  
+<h1 class="text-center">Online Row Reduction Calculator</h1>
+
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="col-md-12">
+      <p>Enter matrix dimensions (m x n):</p>
+      <select class="1-20" id="drop-down-m"></select>
+      x
+      <select class="1-20" id="drop-down-n"></select>
+      <button class="btn btn-primary" id="submit">Submit</button>
+    </div>
+  </div>
+
+  <!-- This div contains the input fields -->
+  <div class="row text-center">
+    <div class="col-md-12">
+      <div class="text-field"></div>
+      <div id="rref-select-div"></div>
+      <div id="calculate-button-div"></div>
+    </div>
+  </div>
+
+  <!-- This div contains the answer -->
+  <div class="row text-center">
+    <div class="col-md-12">
+      <div id="answer-div" class="container-fluid"></div>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+<!-- jQuery 3.2.1 -->
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+<!-- page.js contains basic functions required for all pages -->
+<script type="text/javascript" src=js/page.js async></script>
+
+<!-- move_tracker.js contains functions for the move tracker -->
+<script type="text/javascript" src="js/move_tracker.js" async></script>
+
+<!-- fraction.js contains functions for fractions -->
+<script type="text/javascript" src="js/fraction.js" async></script>
+
+<!-- matrix.js contains functions for matrices -->
+<script type="text/javascript" src="js/matrix.js" async></script>
+
+<script type="text/javascript" src="js/row_reduce.js" async></script>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+.sidenav{
+	height: 100%; /* full height */
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #0066cc;
+	padding-top: 60px;
+
+	/*https://www.w3schools.com/cssref/css3_pr_overflow-x.asp*/
+	overflow-x: hidden;
+	transition: 0.5s;
+	width: 250px;
+}
+
+.sidenav a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin-left: 5px;
+	transition: 0.2s;
+}
+
+.sidenav h2{
+	display:block;
+	margin-left: 5px;
+	color: white;
+}
+
+.sidenav hr{
+	border-color: white;
+	display: block;
+	margin-top: -5px;
+}
+
+.sidenav a:hover{
+	color: #bfbfbf;
+}
+
+.sidenav .closebtn{
+	position: absolute;
+	top: 0;
+	font-size: 36px;
+}
+
+.inactive-link {
+   pointer-events: none;
+   cursor: default;
+}
+
+#close-sidebar{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#close-sidebar a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

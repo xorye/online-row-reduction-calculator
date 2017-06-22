@@ -1,0 +1,43 @@
+.1-20{
+	display: inline;
+}
+
+#submit, #calculate-button{
+	display:block;
+
+	margin: 20px auto;
+}
+
+input{
+	width: 3%;
+}
+
+/* https://stackoverflow.com/questions/10309408/how-to-add-vertical-spacing-between-block-elements-but-not-top-and-bottom */
+/* spaces out each input field */
+input + input{
+	margin-left: 4px;
+	margin-bottom: 4px;
+}
+
+#answer-div{
+	width: 930px;
+	display: block;
+	margin: 0px auto;
+}
+
+table{
+	width: 130px;
+	height: 40px;
+	margin: 0px auto;
+}
+
+#rref-select-div{
+	margin-top: 15px;
+}
+
+.steps{
+	display: block;
+	margin-top: -15px;
+	margin-bottom: 25px;
+}
+
